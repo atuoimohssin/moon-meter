@@ -1,0 +1,17 @@
+name: moon_sun_distance
+description: A simple app to calculate the distance from the Moon and the Sun using device location.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^7.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
